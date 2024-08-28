@@ -1,0 +1,8 @@
+<mamecheat version="1">
+    <cheat desc="Skip Multisession Unit Error">
+        <script state="run">
+            <action>maincpu.pd@8004F5B0=00000000</action>
+            <action>maincpu.pd@8004F610=00000000</action>
+        </script>
+    </cheat>
+</mamecheat>
